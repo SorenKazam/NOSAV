@@ -1,0 +1,26 @@
+[
+    {
+        "name": "edx",
+        "type": "trojan",
+        "size": "2MB",
+        "date": "2022-04-12"
+    },
+    {
+        "name": "arquivo2",
+        "type": "jpg",
+        "size": "1MB",
+        "date": "2022-04-13"
+    },
+    {
+        "name": "arquivo3",
+        "type": "docx",
+        "size": "3MB",
+        "date": "2022-04-14"
+    },
+    {
+        "name": "notavirus",
+        "type": "keylogger",
+        "size": "3MB",
+        "date": "2022-04-14"
+    }
+]
