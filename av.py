@@ -10,9 +10,11 @@ files = []
 cleanFiles = 0
 infectedFiles = 0
 totalFiles = 0
+scannedFiles = 0
 
-for file in os.listdir("folder/"):  # aqui é a pasta que ira ser analisado
-    print(f"Examinando ficheiro: {file}")
+for file in os.walk("C:/"):  # aqui é a pasta que ira ser analisado
+    scannedFiles += 1
+    print(f"{scannedFiles} Ficheiros scaneados. Examinando ficheiro: {file}")
     if file == "av.py":
         continue
     files.append(file)
